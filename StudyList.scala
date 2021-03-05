@@ -53,7 +53,7 @@ object StudyList {
 
     // 可变列表
     val l20 = ListBuffer[Int]()
-    l20 += 100  // 追加元素
+    l20 += 100 += 300  // 追加元素
     l20 += 200
     l20 ++= l1  // 追加列表
     println("l20: " + l20)
