@@ -2,6 +2,7 @@ package striner
 
 object StudyApplyUnapply {
 
+  // 初始化对象时，除了方法外的代码都会被执行
   println("start -- ")
 
   def main(args: Array[String]): Unit = {
